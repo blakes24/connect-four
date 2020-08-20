@@ -42,3 +42,12 @@
 #column-top td:hover {
 	background-color: gold;
 }
+
+#button {
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	margin-top: 10px;
+}

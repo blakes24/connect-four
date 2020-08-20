@@ -142,5 +142,16 @@ function checkForWin() {
 	}
 }
 
+const button = document.querySelector('button');
+button.addEventListener('click', newGame);
+
+function newGame() {
+	board.length = 0;
+	const htmlBoard = document.querySelector('#board');
+	htmlBoard.innerHTML = '';
+	makeBoard();
+	makeHtmlBoard();
+}
+
 makeBoard();
 makeHtmlBoard();
